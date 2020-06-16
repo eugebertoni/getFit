@@ -12,6 +12,7 @@ sass --watch assets/styles/style.scss:style.css
 
 # Assets directory difination
 
+* **fonts/** - Contains all fonts
 * **image/** - Contains all images
 * **styles/**
   * **style.scss** - Contains all scss pertials
