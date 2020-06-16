@@ -1,5 +1,6 @@
 # GetFit LandingPage
 Fitma Coding Challenge 
+<br>
 Check [Fitma File](https://www.figma.com/file/3b35RA8qUwsmirVOzZ33t2/Coding-Challenge-(6)?node-id=1%3A2)
 
 ### Generate `style.css` file by compiling scss files
