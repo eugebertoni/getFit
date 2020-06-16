@@ -536,8 +536,7 @@ dd {
   padding-bottom: 180px; }
   .section-b .floating-content {
     position: relative;
-    top: -110px;
-    width: 100%; }
+    top: -110px; }
   .section-b .blockquote {
     margin: 0 auto;
     max-width: 900px; }
