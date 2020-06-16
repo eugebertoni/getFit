@@ -10,7 +10,7 @@ sass --watch assets/styles/style.scss:style.css
 # File architecture
 <br>
 
-# Assets directory definition
+### Assets directory definition
 
 * **fonts/** - Contains all fonts
 * **image/** - Contains all images
