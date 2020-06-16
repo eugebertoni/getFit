@@ -6,12 +6,8 @@ sass --watch assets/styles/style.scss:style.css
 ```
 <br>
 <br>
-<br><br>
-<br>
-<br>
 
 # File architecture
-<br>
 <br>
 
 # Assets directory difination
