@@ -1,0 +1,54 @@
+.btn-group{
+	.btn + .btn{
+		margin-left: 20px;
+	}
+}
+
+.btn{
+	border: 2px solid transparent;
+	border-radius: 30px;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 19px;
+	min-height: 54px;
+	padding: 14px 30px;
+	text-decoration: none;
+	transition: all 0.5s;
+	&:focus{
+		outline: none;
+	}
+}
+
+.btn-primary{
+	background-color: $primary;
+	border-color: $primary;
+	color: $white;
+	&:hover,
+	&:focus{
+		background-color: darken($primary, 10%);
+		border-color: darken($primary, 10%);
+	}
+}
+
+.btn-secondary{
+	background-color: $secondary;
+	border-color: $secondary;
+	color: $white;
+	&:hover,
+	&:focus{
+		background-color: darken($secondary, 10%);
+		border-color: darken($secondary, 10%);
+	}
+}
+
+.btn-border{
+	background: none;
+	border: 2px solid rgba($white, 0.4);
+	color: $white;
+	&:hover,
+	&:focus{
+		background-color: $white;
+		color: $body-color;
+		border-color: $white;
+	}
+}

@@ -1,0 +1,44 @@
+.video{
+	background: url("assets/images/video.png"), #C4C4C4;
+	cursor: pointer;
+	display: block;
+	width: 800px;
+	height: 800px;
+	right: 15px;
+	top: -260px;
+	position: absolute;
+	transition: all 1s;
+	&:hover{
+		background: linear-gradient(0deg, rgba(22, 26, 37, 0.6) 0%, rgba(22, 26, 37, 0.4) 50%), url("assets/images/video.png"), #FFFFFF;
+		.video-play{
+			width: 145px;
+			height: 145px;
+		}
+	}
+	.video-play{
+		background: $white;
+		border-radius: 50%;
+		position: absolute;
+		width: 128px;
+		height: 128px;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		transition: all 0.5s;
+		&:after{
+			content: "";
+			width: 40px; 
+			height: 48px; 
+			background-color: $primary;
+			clip-path: polygon(0 0, 0% 100%, 100% 50%);
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+	}
+}

@@ -1,0 +1,42 @@
+.full-body-training{
+	.thumbnail-img{
+		background: linear-gradient(0deg, rgba(22, 26, 37, 0) 0%, rgba(22, 26, 37, 0) 50%), url("assets/images/full-body-training.png"), #FFFFFF;
+	}
+}
+.back-arms-chest{
+	.thumbnail-img{
+		background: linear-gradient(0deg, rgba(22, 26, 37, 0) 0%, rgba(22, 26, 37, 0) 50%), url("assets/images/back-arms-chest.png"), #FFFFFF;
+	}
+}
+.lets-train-together{
+	.thumbnail-img{
+		background: linear-gradient(0deg, rgba(22, 26, 37, 0) 0%, rgba(22, 26, 37, 0) 50%), url("assets/images/lets-train-together.png"), #FFFFFF;
+	}
+}
+.thumbnails{
+	list-style: none;
+	padding: 0;
+	.thumbnail-img{
+		height: 261px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 100%;
+		max-width: 100%;
+	}
+	.caption{
+		text-align: center;
+		h3{
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 34px;
+			margin: 15px 0 10px 0;
+		}
+		p{
+			color: $primary;
+			font-size: 18px;
+			line-height: 22px;
+			margin: 0;
+		}
+	}
+	
+}

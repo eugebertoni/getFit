@@ -1,0 +1,112 @@
+.section-overtitle{
+	font-size: 24px;
+	font-weight: 500px;
+	line-height: 29px;
+	margin: 0 0 20px 0;
+	&.primary{
+		color: $primary;
+	}
+	&.secondary{
+		color: $secondary;
+	}
+}
+.section-title{
+	font-size: 60px;
+	line-height: 72px;
+	margin: 0 0 40px 0;
+}
+.section-paragraph{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.dark-background{
+	background-color: $dark-background;
+	color: $white;
+}
+
+.section-b{
+	background: linear-gradient(109.94deg, #112EC5 -0.28%, #D92057 126.51%);
+    padding-bottom: 180px;
+    .floating-content{
+    	position: relative;
+	    top: -110px;
+	    width: 100%;
+    }
+    .blockquote{
+		margin: 0 auto;
+		max-width: 900px;
+		p{
+			color: rgba($white, 0.6);
+		}
+		.blockquote-cite{
+			color: $white;
+		}
+	}
+	.card{	
+		&.resistance{
+		    background: linear-gradient(0deg, rgba(22, 26, 37, 0.6) 0%, rgba(22, 26, 37, 0) 50%), url("assets/images/resistance.png"), #FFFFFF;
+		}
+		&.supplement-plan{
+			background: linear-gradient(0deg, rgba(22, 26, 37, 0.6) 0%, rgba(22, 26, 37, 0) 50%), url("assets/images/supplement-plan.png"), #FFFFFF;
+		}
+		&.personal-trainers{
+			background: linear-gradient(0deg, rgba(22, 26, 37, 0.6) 0%, rgba(22, 26, 37, 0) 50%), url("assets/images/personal-trainers.png"), #FFFFFF;
+		}
+		&.card-bg{
+			background-color: $dark-background;
+			background-size: cover;
+			clip-path: polygon(0 0, 100% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 100%, 0 0);
+		}
+	}
+}
+
+
+.section-c{
+	padding-top: 160px;
+	padding-bottom: 182px;
+}
+
+.section-d{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.section-e{
+	background: linear-gradient(90deg, #050505 0%, rgba(5, 5, 5, 0) 72.32%), url("assets/images/subscribe.png"), #C4C4C4;
+	padding-top: 210px;
+	padding-bottom: 210px;
+	.section-paragraph{
+		color: rgba($white, 0.8);
+		max-width: 680px;
+	}
+}
+
+.section-f{
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.section-g{
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.testimonial{
+	.testimonial-img{
+		height: 100px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+		img{
+			max-width: 200px;
+			width: 100%;
+		}
+	}
+	.testimonial-paragraph{
+		font-size: 16px;
+		line-height: 24px;
+		margin: 10px 0 0;
+	}
+}

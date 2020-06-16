@@ -1,0 +1,30 @@
+.blockquote{
+	text-align: center;
+	.blockquote-quote{
+		display: block;
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 60px;
+		margin-bottom: 40px;
+	}
+	.blockquote-avatar{
+		border-radius: 50%;
+		overflow: hidden;
+		width: 64px;
+		height: 64px;
+		margin: 0 auto 10px auto;
+		img{
+			min-height: 100%;
+			width: auto;
+		}
+	}
+	p{
+		font-size: 16px;
+	}
+	.blockquote-cite{
+		display: block;
+		font-size: 16px;
+		font-style: normal;
+		line-height: 24px;
+	}
+}
