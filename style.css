@@ -442,7 +442,8 @@ dd {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    max-width: 100%; }
+    max-width: 100%;
+    mask: url("assets/images/thumbnails.svg#mask0"); }
   .thumbnails .caption {
     text-align: center; }
     .thumbnails .caption h3 {
